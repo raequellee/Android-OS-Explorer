@@ -20,14 +20,68 @@
             android:textColor="#3DDC84"
             android:layout_marginBottom="16dp"/>
 
-        <ImageView
-            android:id="@+id/imgArsitektur"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/android_architecture"
-            android:layout_marginBottom="32dp"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp"
+            android:gravity="center">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Application"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:background="#FFCC80"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Application Framework"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:background="#90CAF9"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Runtime (ART)"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:background="#64B5F6"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Libraries"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:background="#81C784"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linux Kernel"
+                android:textAlignment="center"
+                android:padding="12dp"
+                android:layout_margin="4dp"
+                android:background="#757575"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+        </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
