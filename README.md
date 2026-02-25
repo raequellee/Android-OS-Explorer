@@ -24,7 +24,7 @@ Menampilkan diagram tumpukan (*stack*) Arsitektur Android secara visual, beserta
 5. Battery Level (%)
 6. Network Status (Wi-Fi / Cellular / Offline)
 
-<img width="1080" height="2400" alt="Screenshot_20260223_164445" src="https://github.com/user-attachments/assets/d585b6d9-6555-43cb-b45a-f65e88d9ae55" />
+<img width="1080" height="2400" alt="Screenshot_20260225_142017" src="https://github.com/user-attachments/assets/f0528917-3963-4409-96ac-9cb6380328a5" />
 
 ---
 
